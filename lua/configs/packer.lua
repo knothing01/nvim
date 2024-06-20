@@ -53,4 +53,13 @@ return require('packer').startup(function(use)
     use ('preservim/nerdtree')
     use ('preservim/tagbar')
     use ('farmergreg/vim-lastplace')
+    use ('m4xshen/autoclose.nvim')
+    use ('nvim-tree/nvim-tree.lua')
+    use {'akinsho/nvim-bufferline.lua'}
+    use {'kyazdani42/nvim-web-devicons'}
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 end)

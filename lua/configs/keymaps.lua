@@ -17,3 +17,11 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 vim.keymap.set("n", "<Leader>s", [[:%s/<C-r><C-w>//g<Left><Left>]])
 vim.keymap.set("n", "<Leader>x", "<cmd>!chmod +x %<CR>", { silent = true})
 
+vim.keymap.set("n", "<Leader>v", ':vsplit<CR>', {noremap = true, silent = true})
+vim.keymap.set("n", "<Leader>z", ':split<CR>', {noremap = true, silent = true})
+
+vim.keymap.set("n", "<Leader>c", ':q<CR>', {noremap = true, silent = true})
+
+
+
+

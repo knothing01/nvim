@@ -55,3 +55,11 @@ require("nvim-web-devicons").setup( {
     default = true;
 })
 
+require('telescope').setup{
+  defaults = {
+    preview = {
+      live_preview = true,
+    },
+  }
+}
+

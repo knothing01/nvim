@@ -60,9 +60,13 @@ return require('packer').startup(function(use)
     use ('nvim-tree/nvim-tree.lua')
     use {'akinsho/nvim-bufferline.lua'}
     use {'kyazdani42/nvim-web-devicons'}
+    use {'ryanoasis/vim-devicons'}
+    use {'goolord/alpha-nvim'}
+
 
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
+
 end)
